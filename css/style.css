@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'CiscoSans';
+    src: url('../fonts/CiscoSans/CiscoSans-ExtraLight.eot');
+    src: url('../fonts/CiscoSans/CiscoSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CiscoSans/CiscoSans-ExtraLight.woff') format('woff'),
+    url('../fonts/CiscoSans/CiscoSans-ExtraLight.woff2') format('woff2'),
+    url('../fonts/CiscoSans/CiscoSans-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    font-family: CiscoSans;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu_list{
+    list-style-type: none;
+    margin: 10px 0 10px auto;
+    margin-right: 0;
+}
+
+.menu_list li{
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.box{
+    margin: 10px 0;
+    padding: 0 150px;
+}
+
+.box-small{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box-midi{
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.bg-fix{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color:rgb(40, 152, 218);
+}
+
+.pink{
+    color: rgb(243, 55, 86);    
+}
+
+.grey{
+    color: rgb(235, 217, 217);
+}
+
+.black{
+    color: black;
+}
+
+.banner{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text{
+    position: absolute;
+    top: calc(45%); 
+    left: calc(50% - 400px); 
+    width: 800px;
+    height: 100px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.banner-button{
+    position: absolute;
+    bottom: calc(30%); 
+    left: calc(50% - 75px); 
+    width: 150px;
+    height: 40px;
+    z-index: 9999;
+    text-align: center;
+    border: 1px solid white;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block-with-background{
+    width: 100%;
+}
+
+.content{
+    padding: 30px 150px;
+}
+
+hr {
+    border: none; 
+    background-color:  rgb(243, 55, 86); 
+    color: rgb(243, 55, 86); 
+    height: 2px; 
+    width: 60px;
+    text-align: left;
+    margin-inline-start: 0;
+}
+
+.block{
+    width: 100%;
+}
+
+.flexible{
+    display:flex;
+    justify-content: space-between;
+}
+
+.boss{
+    width: 48%;
+    background-color: rgb(236, 248, 244);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.boss-photo{
+    width: 60%;
+}
+
+.boss-contacts{
+    font-weight: 550;
+    width: 100%;
+    padding: 20px;
+}
+
+.boss-contacts > p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.block-connect{
+    display: flex;
+    background-color: rgb(30, 139, 202);
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-connect{
+    width: 110px;
+    border: 1px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-blocks{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 39, 39);
+    padding: 30px 150px;
+}
+
+.footer-blocks > div{
+    width: 24%;
+}
+
+.contacts{
+    display: flex;
+}
+
+.icons{
+    width: 25px;
+}
+
+.icons > div{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.black-box{
+    background: black;
+    text-align: center;
+    padding: 10px 150px;
+}
+
+.block-form{
+    display: flex;
+    padding: 20px 150px;
+    background-color: rgb(30, 139, 202);
+}
+
+.block-contacts{
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+.small-form{
+    width: 48%;
+}
+
+.big-icons{
+    width: 15%;
+}
+
+.big-icons > div{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.box-small-form{
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid  rgb(30, 139, 202);
+}
+
+.block-form > .small-form button{
+    background: rgb(245, 74, 102);
+    border-color: rgb(245, 74, 102);
+    cursor: pointer;
+    color: white;
+}
+
+.inputs{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+.last-projects > div{
+    width: 30%;
+    height: 200px;
+    border: 2px solid rgb(243, 55, 86);
+    margin-top: 20px;
+}
+
+.statistic{
+    text-align: center;
+    width: 20%;
+}
+
+.num{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.line{
+    width: 25px;
+    height: 2px;
+    background-color:  white; 
+    margin: 10px auto;
+}
+
+.box-form{
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 350px;
+    border: 2px solid rgb(207, 97, 6)
+}
+
+
+textarea{
+    max-height: 100px;
+    min-height: 100px;
+    resize: none;
+}
+
+.form{
+    width: 47%;
+}
+
+.form  button{
+    cursor: pointer;
+    background-color: rgb(30, 139, 202);
+}
+
+.offers{
+    display: flex;
+    padding: 20px 150px;
+    flex-wrap: wrap;
+    background-color: rgb(236, 248, 244);
+}
+
+.one-third{
+    width: 33%;
+    text-align: center;
+}
+
+.one-third :first-child{
+    margin: 15px auto;
+}

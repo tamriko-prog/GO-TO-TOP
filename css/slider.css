@@ -1,0 +1,82 @@
+.slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides{
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.slides > li  {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.slider-nav{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 99999;
+    top: calc(50% - 25px);  
+    cursor: pointer;
+}
+
+
+.slider:hover .slider-prev{
+    left: 50px;
+}
+
+.slider:hover .slider-next{
+    right: 50px;
+}
+
+.slider:hover .slider-up{
+    top: 50px;
+}
+
+.slider:hover .slider-down{
+    bottom: 50px;
+}
+
+.slider-prev{
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: rgb(104, 101, 101);
+    left: 50px;
+    background-image: url('../img/white-down-arrow.png');
+    transform: rotate(90deg);
+}
+
+.slider-next{
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: rgb(104, 101, 101);
+    right: 50px;
+    background-image: url('../img/white-down-arrow.png');
+    transform: rotate(270deg);
+}
+
+
+.control-nav-horizontal{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+.carousel > .slides > li{
+    margin: 5px;
+    cursor: pointer;
+}
